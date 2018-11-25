@@ -1,0 +1,107 @@
+Dependencies for Project 'stm32f4_bootloader', Target 'stm32f446re': (DO NOT MODIFY !)
+F (.\Src\main.c)(0x5BFB05CF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\Inc-IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx -DHSI_VALUE="16000000" -DHSE_VALUE="8000000" --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Inc\main.h)(0x5BFB08B9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB62CC)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C5A10)
+I (.\Drivers\Inc\rcc.h)(0x5AB3CD17)
+I (.\Drivers\Inc\usart.h)(0x5BFB0926)
+I (.\Drivers\Inc\gpio.h)(0x5B34EAB5)
+I (.\Inc\debug.h)(0x5BFB0868)
+I (.\Inc\bootloader.h)(0x5BF1DE80)
+F (.\Src\bootloader.c)(0x5BF1DE7D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\Inc-IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx -DHSI_VALUE="16000000" -DHSE_VALUE="8000000" --C99-o .\objects\bootloader.o --omf_browse .\objects\bootloader.crf --depend .\objects\bootloader.d)
+I (.\Inc\main.h)(0x5BFB08B9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB62CC)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C5A10)
+I (.\Drivers\Inc\rcc.h)(0x5AB3CD17)
+I (.\Drivers\Inc\usart.h)(0x5BFB0926)
+I (.\Drivers\Inc\gpio.h)(0x5B34EAB5)
+I (.\Inc\debug.h)(0x5BFB0868)
+I (.\Inc\bootloader.h)(0x5BF1DE80)
+F (.\Src\debug.c)(0x5BFB08C4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\Inc-IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx -DHSI_VALUE="16000000" -DHSE_VALUE="8000000" --C99-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (.\Inc\main.h)(0x5BFB08B9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB62CC)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C5A10)
+I (.\Drivers\Inc\rcc.h)(0x5AB3CD17)
+I (.\Drivers\Inc\usart.h)(0x5BFB0926)
+I (.\Drivers\Inc\gpio.h)(0x5B34EAB5)
+I (.\Inc\debug.h)(0x5BFB0868)
+I (.\Inc\bootloader.h)(0x5BF1DE80)
+F (.\Inc\main.h)(0x5BFB08B9)()
+F (.\Inc\bootloader.h)(0x5BF1DE80)()
+F (.\Inc\debug.h)(0x5BFB0868)()
+F (.\Drivers\Inc\usart.h)(0x5BFB0926)()
+F (.\Drivers\Src\usart.c)(0x5BFB089E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\Inc-IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx -DHSI_VALUE="16000000" -DHSE_VALUE="8000000" --C99-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\Inc\main.h)(0x5BFB08B9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB62CC)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C5A10)
+I (.\Drivers\Inc\rcc.h)(0x5AB3CD17)
+I (.\Drivers\Inc\usart.h)(0x5BFB0926)
+I (.\Drivers\Inc\gpio.h)(0x5B34EAB5)
+I (.\Inc\debug.h)(0x5BFB0868)
+I (.\Inc\bootloader.h)(0x5BF1DE80)
+F (.\Drivers\Inc\rcc.h)(0x5AB3CD17)()
+F (.\Drivers\Src\rcc.c)(0x5BFB062F)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\Inc-IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx -DHSI_VALUE="16000000" -DHSE_VALUE="8000000" --C99-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (.\Inc\main.h)(0x5BFB08B9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB62CC)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C5A10)
+I (.\Drivers\Inc\rcc.h)(0x5AB3CD17)
+I (.\Drivers\Inc\usart.h)(0x5BFB0926)
+I (.\Drivers\Inc\gpio.h)(0x5B34EAB5)
+I (.\Inc\debug.h)(0x5BFB0868)
+I (.\Inc\bootloader.h)(0x5BF1DE80)
+F (.\Drivers\Inc\gpio.h)(0x5B34EAB5)()
+F (.\Drivers\Src\gpio.c)(0x585707A3)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\Inc-IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx -DHSI_VALUE="16000000" -DHSE_VALUE="8000000" --C99-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\Inc\main.h)(0x5BFB08B9)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E9286)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB62CC)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C5A10)
+I (.\Drivers\Inc\rcc.h)(0x5AB3CD17)
+I (.\Drivers\Inc\usart.h)(0x5BFB0926)
+I (.\Drivers\Inc\gpio.h)(0x5B34EAB5)
+I (.\Inc\debug.h)(0x5BFB0868)
+I (.\Inc\bootloader.h)(0x5BF1DE80)
+F (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x57ED11B8)()
+F (RTE\Device\STM32F446RETx\startup_stm32f446xx.s)(0x572C5A0E)(--cpu Cortex-M4.fp -g --apcs=interwork -IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F446xx SETA 1"--list .\listings\startup_stm32f446xx.lst --xref -o .\objects\startup_stm32f446xx.o --depend .\objects\startup_stm32f446xx.d)
+F (RTE\Device\STM32F446RETx\system_stm32f4xx.c)(0x5BFAEE93)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\Inc -I .\Drivers\Inc-IE:\GitHub\stm32f4_bootloader\RTE-ID:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-ID:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F446xx -DHSI_VALUE="16000000" -DHSE_VALUE="8000000" --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h)(0x572C5A0E)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E9286)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h)(0x57D8113A)
+I (D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h)(0x57EB62CC)
+I (D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x572C5A10)

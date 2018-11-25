@@ -1,0 +1,16 @@
+.\objects\bootloader.o: Src\bootloader.c
+.\objects\bootloader.o: .\Inc\main.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\core_cm4.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_compiler.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include\cmsis_armcc.h
+.\objects\bootloader.o: D:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h
+.\objects\bootloader.o: .\Drivers\Inc\rcc.h
+.\objects\bootloader.o: .\Inc\main.h
+.\objects\bootloader.o: .\Drivers\Inc\usart.h
+.\objects\bootloader.o: .\Drivers\Inc\gpio.h
+.\objects\bootloader.o: .\Inc\debug.h
+.\objects\bootloader.o: .\Inc\bootloader.h
