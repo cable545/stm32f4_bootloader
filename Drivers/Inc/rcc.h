@@ -115,6 +115,7 @@ void RCC_APB2PeriphClockCmd(uint32_t RCC_APB2Periph, FunctionalState NewState);
 void RCC_APB1PeriphResetCmd(uint32_t RCC_APB1Periph, FunctionalState NewState);
 void RCC_APB2PeriphResetCmd(uint32_t RCC_APB2Periph, FunctionalState NewState);
 void RCC_GetClocksFreq(RCC_ClocksTypeDef* RCC_Clocks);
+void RCC_DeInit(void);
 
 
 #ifdef __cplusplus

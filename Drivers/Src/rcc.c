@@ -269,3 +269,45 @@ void RCC_GetClocksFreq(RCC_ClocksTypeDef* RCC_Clocks)
   RCC_Clocks->PCLK2_Frequency = RCC_Clocks->HCLK_Frequency >> presc;
 }
 
+/*
+ * Resets the RCC clock configuration to the default reset state.
+ * The default reset state of the clock configuration is given below:
+ *    - HSI ON and used as system clock source
+ *    - HSE, PLL and PLLI2S OFF
+ *    - AHB, APB1 and APB2 prescaler set to 1.
+ *    - CSS, MCO1 and MCO2 OFF
+ *    - All interrupts disabled
+ * This function doesn't modify the configuration of the
+ *    - Peripheral clocks  
+ *    - LSI, LSE and RTC clocks 
+ */
+void RCC_DeInit(void)
+{
+  /* Set HSION bit */
+  RCC->CR |= (uint32_t)0x00000001;
+
+  /* Reset CFGR register */
+  RCC->CFGR = 0x00000000;
+
+  /* Reset HSEON, CSSON, PLLON, PLLI2S and PLLSAI(STM32F42xxx/43xxx/446xx/469xx/479xx devices) bits */
+  RCC->CR &= (uint32_t)0xEAF6FFFF;
+  
+  /* Reset PLLCFGR register */
+  RCC->PLLCFGR = 0x24003010;
+
+  /* Reset PLLI2SCFGR register */
+  RCC->PLLI2SCFGR = 0x20003000;
+
+  /* Reset PLLSAICFGR register, only available for STM32F42xxx/43xxx/446xx/469xx/479xx devices */
+  RCC->PLLSAICFGR = 0x24003000;
+  
+  /* Reset HSEBYP bit */
+  RCC->CR &= (uint32_t)0xFFFBFFFF;
+
+  /* Disable all interrupts */
+  RCC->CIR = 0x00000000;
+
+  /* Disable Timers clock prescalers selection, only available for STM32F42/43xxx devices */
+  RCC->DCKCFGR = 0x00000000;
+}
+

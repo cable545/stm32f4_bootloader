@@ -55,5 +55,7 @@
 void usartInit(USART_TypeDef* USARTx, uint32_t bautRate);
 void usartSendData(USART_TypeDef* USARTx, uint16_t data);
 FlagStatus usartGetFlagStatus(USART_TypeDef* USARTx, uint16_t USART_FLAG);
+void usartEnable(USART_TypeDef* USARTx);
+void usartDisable(USART_TypeDef* USARTx);
 
 #endif

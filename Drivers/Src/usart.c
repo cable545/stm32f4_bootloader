@@ -68,6 +68,8 @@ void usartInit(USART_TypeDef* USARTx, uint32_t bautRate)
   }
   
   USARTx->BRR = (uint16_t)tmpreg;
+	
+	usartEnable(USARTx);
 }
 
 void usartSendData(USART_TypeDef* USARTx, uint16_t data)
@@ -105,6 +107,18 @@ FlagStatus usartGetFlagStatus(USART_TypeDef* USARTx, uint16_t USART_FLAG)
     bitstatus = RESET;
   }
   return bitstatus;
+}
+
+void usartEnable(USART_TypeDef* USARTx)
+{ 
+	/* Enable the selected USART by setting the UE bit in the CR1 register */
+  USARTx->CR1 |= USART_CR1_UE;
+}
+
+void usartDisable(USART_TypeDef* USARTx)
+{
+	/* Disable the selected USART by clearing the UE bit in the CR1 register */
+	USARTx->CR1 &= (uint16_t)~((uint16_t)USART_CR1_UE);
 }
 
 
